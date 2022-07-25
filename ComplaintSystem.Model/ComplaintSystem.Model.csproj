@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ComplaintSystem.Logic\ComplaintSystem.Logic.csproj" />
+    <ProjectReference Include="..\ComplaintSystem.Util\ComplaintSystem.Util.csproj" />
   </ItemGroup>
 
 </Project>

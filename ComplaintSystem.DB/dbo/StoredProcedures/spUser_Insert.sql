@@ -5,7 +5,7 @@
 	@Role nvarchar(50)
 AS
 Begin
-		insert into dbo.[User] (UserName,Email,Password,Role)
+		insert into dbo.[User] (UserName,Email,[Password],[Role])
 		values(@UserName,@Email,@Password,@Role);
 
 End

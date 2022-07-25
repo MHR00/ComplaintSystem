@@ -70,5 +70,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Script.PostDeployment.sql" />
+    <None Include="ComplaintSystem.DB.publish.xml" />
   </ItemGroup>
 </Project>

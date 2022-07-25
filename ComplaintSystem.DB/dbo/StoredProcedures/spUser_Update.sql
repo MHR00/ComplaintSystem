@@ -7,6 +7,6 @@
 AS
 Begin
 		Update dbo.[User]
-		set UserName=@UserName,Email=@Email,Password=@Password,Role=@Role
+		set UserName=@UserName,Email=@Email,[Password]=@Password,[Role]=@Role
 		where Id=@Id;
 End
